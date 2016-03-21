@@ -10,4 +10,7 @@ function Update () {
 	if (!GetComponent.<Renderer>().isVisible) {
 		Destroy(gameObject);
 	} 
+
 }
+
+

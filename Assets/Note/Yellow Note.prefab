@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 486032}
   - 212: {fileID: 21205270}
-  - 114: {fileID: 11478322}
+  - 114: {fileID: 11497746}
   m_Layer: 0
   m_Name: Yellow Note
   m_TagString: Note
@@ -29,7 +29,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11478322
+--- !u!114 &11497746
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
