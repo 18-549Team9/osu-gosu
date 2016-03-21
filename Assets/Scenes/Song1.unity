@@ -373,6 +373,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1193894145}
   - 212: {fileID: 1193894144}
+  - 114: {fileID: 1193894146}
+  - 61: {fileID: 1193894147}
   m_Layer: 0
   m_Name: Green Note Button
   m_TagString: Green
@@ -422,6 +424,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1193894146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1193894143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdea1c2e763aa4d5a966bf8d21d59432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1193894147
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1193894143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!1 &1485723078
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +458,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1485723080}
   - 212: {fileID: 1485723079}
+  - 114: {fileID: 1485723081}
+  - 61: {fileID: 1485723082}
   m_Layer: 0
   m_Name: Blue Note Button
   m_TagString: Blue
@@ -480,6 +509,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &1485723081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1485723078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdea1c2e763aa4d5a966bf8d21d59432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1485723082
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1485723078}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!1001 &1766474680
 Prefab:
   m_ObjectHideFlags: 0
@@ -548,6 +602,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1855474604}
   - 212: {fileID: 1855474603}
+  - 114: {fileID: 1855474605}
+  - 61: {fileID: 1855474606}
   m_Layer: 0
   m_Name: Red Note Button
   m_TagString: Red
@@ -597,6 +653,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!114 &1855474605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1855474602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdea1c2e763aa4d5a966bf8d21d59432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1855474606
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1855474602}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!1 &2056088414
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +687,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2056088416}
   - 212: {fileID: 2056088415}
+  - 114: {fileID: 2056088417}
+  - 61: {fileID: 2056088418}
   m_Layer: 0
   m_Name: Yellow Note Button
   m_TagString: Yellow
@@ -655,3 +738,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &2056088417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056088414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdea1c2e763aa4d5a966bf8d21d59432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &2056088418
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056088414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
